@@ -7,9 +7,34 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg, #003366, #0056b3);
+  .header {
+    background: linear-gradient(90deg, #002244, #0056b3);
+    padding: 15px 30px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.title h1 {
+    margin: 0;
     color: white;
-    padding: 20px;
+    font-size: 22px;
+}
+
+.title p {
+    margin: 0;
+    color: #ffd700;
+    font-size: 14px;
+}
 }
 
 nav {
