@@ -118,3 +118,31 @@ footer {
   width: 80px;   /* size change cheyyachu */
   height: auto;
 }
+#contact {
+  padding: 50px;
+  text-align: center;
+  background-color: #002b5b;
+  color: white;
+}
+
+#contact h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+#contact a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #001a33;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
